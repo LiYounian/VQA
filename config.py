@@ -37,12 +37,9 @@ normalize_box = False
 seed = 5225
 weight_decay = 0.0
 
-# model_type = 'my'
-model_type = 'baseline'           # "Bottom-up top-down"
-#model_type = 'inter_intra'       # "Intra- and Inter-modality Attention" 
+model_type = 'my'
+# model_type = 'baseline'          
 # model_type = 'ban'               # "Bilinear Attention Network"
-#model_type = 'counting'          # "Learning to count objects"
-#model_type = 'graph'             # "Learning Conditioned Graph Structures for Interpretable Visual Question Answering"
 
 optim_method = 'Adamax'           # used in "Bottom-up top-down", "Bilinear Attention Network", "Intra- and Inter-modality Attention" 
 #optim_method = 'Adam'            # used in "Learning to count objects", set initial_lr to 1.5e-3
