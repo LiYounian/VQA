@@ -21,7 +21,7 @@ if config.model_type == 'baseline':
     import baseline_model as model
 elif config.model_type == 'ban':
     import ban_model as model
-elif config.model_type == 'finalmodel':
+elif config.model_type == 'my':
     import final_model as model
 import utils
 
