@@ -31,14 +31,14 @@ Run the 'train.py' file to train the model. You can change the model you want to
 The default is final model, in the 'final_model.py' file.
 
 ```
-python train.py [optional-name]
+python train.py
 ```
 - The training time is very long, you can view the already trained process in ‘slurm-5719.out’.
 
 ## Evaluate Accuracy
-- To evaluate accuracy (VQA accuracy and balanced pair accuracy) in various categories, you can run
+- To evaluate accuracy in various categories, you can run
 ```
-python eval-acc.py <path to .pth log> [<more paths to .pth logs> ...]
+python train.py --test --resume=./logs/YOUR_MODEL.pth
 ``` 
 - The results of the training are presented in the paper and PPT.
 
