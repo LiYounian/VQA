@@ -28,7 +28,7 @@ https://visualqa.org/download.html
 
 ## Train
 Run the 'train.py' file to train the model. You can change the model you want to train in 'config.py'. 
-The default is final model, in the 'my_model.py' file.
+The default is final model, in the 'final_model.py' file.
 
 ```
 python train.py [optional-name]
